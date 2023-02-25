@@ -35,7 +35,7 @@ To start using the Riseup Alias Generator, follow these steps:
 3. Run the Docker container:
 
   ```bash
-  docker run --restart always --name riseup-alias-generator --env-file .env ghcr.io/cofob/riseup-alias-generator
+  docker run -d --restart always --name riseup-alias-generator --env-file .env ghcr.io/cofob/riseup-alias-generator
   ```
 
   Start a conversation with the Telegram bot and send the command /alias to generate a new alias.
