@@ -1,3 +1,5 @@
+> **Archival notice:** This repository is archived and no longer maintained.
+
 # Riseup Alias Generator
 
 Riseup Alias Generator is a service that allows you to generate aliases in the Riseup.net email service through a Telegram bot. To use the service, you must self-host the service and run it through a Docker container.
